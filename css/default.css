@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+  width: 0.5vw;
+  background: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgb(28, 228, 255), rgb(79, 255, 117));
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+:root {
+  --blue: #4a7ef1;
+  --lightblue: #65ccee;
+}
+
+.container {
+  width: 75vw;
+  margin: 0 auto;
+}
+.d-flex {
+  display: flex;
+}
+.w-50 {
+  width: 50%;
+}
+.py-1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.py-2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.py-3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.py-4 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.py-5 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.py-6 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.py-7 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.py-8 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.py-9 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.py-10 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.px-1 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.px-2 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.px-3 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.px-4 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.px-5 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.margin0auto {
+  margin: 0 auto;
+}
+.txt_center {
+  text-align: center;
+}
+.hi-5 {
+  height: 50vh;
+}
+.hi-6 {
+  height: 60vh;
+}
+.hi-7 {
+  height: 70vh;
+}
+.hi-8 {
+  height: 80vh;
+}
+.hi-9 {
+  height: 90vh;
+}
+.hi-10 {
+  height: 100vh;
+}
+
+html,
+body {
+  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+}
+.justBt {
+  justify-content: space-between;
+}
+.btn1 {
+  padding: 15px 30px;
+  background: linear-gradient(to right, #65ccee 30%, #95dcbd);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.btn1:hover {
+  background: linear-gradient(to right, #95dcbd, #65ccee);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+  transition: 0.5s;
+  color: #151515;
+}
+.btn1 i {
+  margin: 0 15px 0 0;
+  color: #fff;
+}
+.btn1:hover i {
+  transform: rotate(360deg);
+  color: #151515;
+  transition: 0.5s ease;
+}
+.titles i {
+  display: block;
+  font-size: 50px;
+  color: #151515;
+  text-align: center;
+}
+.titles h1 {
+  font-size: 45px;
+  color: #333;
+  text-transform: uppercase;
+}
+.bar {
+  display: block;
+  width: 10%;
+  height: 5px;
+  background: #333;
+  margin: 0 auto;
+  border-radius: 10px;
+}
